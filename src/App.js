@@ -53,6 +53,10 @@ function App() {
 				Welcome to the Punny API!
 			</Grid>
 			<Grid item>
+				*Please allow a moment for the application to
+				connect to the database*
+			</Grid>
+			<Grid item>
 				<Button
 					variant='contained'
 					onClick={randomJokeHandler}
